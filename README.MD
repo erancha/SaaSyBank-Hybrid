@@ -10,7 +10,7 @@ The application features an intuitive mobile-first design and robust monitoring 
 
 User authentication is securely handled through Google.
 
-The serverless ([see deployment details](#5-flexible-deployment)) application is available online at https://d1fevwdrsgcsou.cloudfront.net/  
+The serverless ([see deployment details](#5-flexible-deployment)) application is available online at https://d1t79jief35s3.cloudfront.net  
 Recorded Demo : https://drive.google.com/file/d/1zWGpio3kZrHh01X9zIONAgY1aQ8zyXsm/view?usp=drive_link
 
 # Table Of Content
