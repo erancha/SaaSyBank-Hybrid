@@ -21,8 +21,8 @@ Recorded Demo : https://drive.google.com/file/d/1zWGpio3kZrHh01X9zIONAgY1aQ8zyXs
   - [Overview](#overview)
   - [Architecture](#architecture)
     - [1. **Backend**](#1-backend)
-      - [**Application Load Balancer (ALB)**](#application-load-balancer-alb)
-      - [**ECS with Fargate**](#ecs-with-fargate)
+      - [**ALB + ECS Fargate**](#alb--ecs-fargate)
+      - [**API Gateway + Lambda**](#api-gateway--lambda)
       - [**RDS with PostgreSQL**](#rds-with-postgresql)
       - [**SQS**](#sqs)
     - [2. **Frontend**](#2-frontend)
@@ -60,12 +60,16 @@ Recorded Demo : https://drive.google.com/file/d/1zWGpio3kZrHh01X9zIONAgY1aQ8zyXs
 
 The application features a hybrid architecture that provides flexible deployment options:
 
-- **ALB + ECS Fargate**: Traditional container-based deployment using Application Load Balancer and ECS Fargate for scalable container orchestration:
+#### **ALB + ECS Fargate**
 
-  - **ALB**: Distributes API requests, Auto-scales for high availability
-  - **ECS with Fargate**: Runs containerized applications in private subnets for enhanced security
+Traditional container-based deployment using Application Load Balancer and ECS Fargate for scalable container orchestration:
 
-- **API Gateway + Lambda**: Serverless deployment option where Lambda functions run in private subnets, using API Gateway for secure request distribution - ideal for variable workloads and pay-per-use pricing model, where costs scale with actual usage
+- **ALB**: Distributes API requests, Auto-scales for high availability
+- **ECS with Fargate**: Runs containerized applications in private subnets for enhanced security
+
+#### **API Gateway + Lambda**
+
+Serverless deployment option where Lambda functions run in private subnets, using API Gateway for secure request distribution - ideal for variable workloads and pay-per-use pricing model, where costs scale with actual usage
 
 #### **RDS with PostgreSQL**
 
@@ -101,11 +105,7 @@ The application features a hybrid architecture that provides flexible deployment
 
 The application features a hybrid architecture that provides flexible deployment options:
 
-- **ALB + ECS Fargate**: Traditional container-based deployment using Application Load Balancer and ECS Fargate for scalable container orchestration:
-
-  - **ALB**: Distributes API requests, Auto-scales for high availability
-  - **ECS with Fargate**: Runs containerized applications in private subnets for enhanced security
-
+- **ALB + ECS Fargate**: Traditional container-based deployment using Application Load Balancer and ECS Fargate for scalable container orchestration
 - **API Gateway + Lambda**: Serverless deployment option where Lambda functions run in private subnets, using API Gateway for secure request distribution - ideal for variable workloads and pay-per-use pricing model, where costs scale with actual usage
 
 Both deployment models maintain the same functionality while offering different scaling and cost characteristics to suit various deployment scenarios.
