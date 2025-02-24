@@ -54,7 +54,7 @@ Recorded Demo : https://drive.google.com/file/d/1zWGpio3kZrHh01X9zIONAgY1aQ8zyXs
 ![Architecture Diagram](https://lucid.app/publicSegments/view/24426c68-7923-47e3-96fe-516ed235f132/image.jpeg)
 
 **API Gateway + Lambda**
-![Architecture diagram](https://lucid.app/publicSegments/view/24563671-68e2-4587-8bf9-5a4988d0c312/image.jpeg)
+![Architecture diagram](https://lucid.app/publicSegments/view/134ca2e4-ec2e-41a1-a607-6484b0eb87d9/image.jpeg)
 
 ### 1. **Backend**
 
